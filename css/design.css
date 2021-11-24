@@ -1,2 +1,96 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.parent-containert {
+    width: 50%;
+    height: 625px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 275px 350px;
+    
+}
+
+.first-item {
+    background-color: white;
+    grid-area:1/1/1/3 ;
+    line-height: 1.8;
+    border: 2px solid rgb(212, 212, 212);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom: none;
+}
+.second-item {
+    background-color: hsl(179, 62%, 43%);
+    border: 2px solid hsl(179, 62%, 43%);
+    border-bottom-left-radius: 25px;
+    border-right: none;
+    border-top: none;
+}
+
+.third-item {
+    background-color:hsl(179, 94%, 79%) ;
+    border: 2px solid hsl(179, 94%, 79%);
+    border-bottom-right-radius: 25px;
+    border-left: none;
+    border-top: none;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    width:65%;
+    height: 60px;
+    margin-top: 20px;
+    border: 1px solid hsl(71, 73%, 54%);
+    border-radius: 7px;
+    box-shadow: 4px 4px  darkgray;}
+
+.first-heading {
+color: hsl(179, 62%, 43%);
+}
+.first-sub-heading {
+color: hsl(71, 73%, 54%);
+}
+.join {
+    margin: 50px;
+}
+.subscribe {
+    margin: 50px;
+}
+.why {
+    margin: 50px;
+    line-height: 0.6;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.head-why , .sub-price , p  ,button ,.price{
+    color: white;
+} 
+
+.spi-font {
+    color: hsl(195, 2%, 54%);
+    font-weight: 400;
+}
+.head-why{
+    margin-bottom: 65px;
+}
+.mustapha {
+    border: 10px solid hsl(71, 73%, 54%);
+    border-radius: 7px;
+    border-left: none;
+}
+
